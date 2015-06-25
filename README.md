@@ -1,2 +1,2 @@
 # setoriais
-Wordpress com o tema e plugin do fórum setorial do CNPC
+Wordpress com o tema e plugin dos Fóruns Nacionais Setoriais
