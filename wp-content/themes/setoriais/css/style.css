@@ -1,0 +1,1371 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+}
+
+html {
+	font: normal 12px Arial;
+	color: #000000;
+	background: #F4F4F4;
+}
+
+a {
+	color: #9C9C9C;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #000000;
+}
+
+/***************************************************************************************************
+	form
+***************************************************************************************************/
+
+label {
+	display: inline-block;
+	padding: 10px 0px 5px 0px;
+}
+
+input,
+textarea {
+	font: normal 12px Arial;
+	color: #9C9C9C;
+	padding: 5px;
+	background: #FFFFFF;
+	border: 1px solid #DEDEDE;
+}
+
+input:focus,
+input:hover,
+input:active,
+textarea:focus,
+textarea:hover,
+textarea:active {
+	color: #000000;
+}
+
+input[disabled],
+textarea[disabled] {
+	background: #DEDEDE;
+}
+
+button {
+	font: bold 14px "Economica", "Arial Narrow";
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background: url(../img/bg/bt_leiamais2.png) no-repeat;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+	text-shadow: 1px 1px 1px #9D800C
+}
+
+button:focus,
+button:hover,
+button:active {
+	cursor: pointer;
+	background: url(../img/bg/bt_leiamais2_on.png) no-repeat;
+}
+
+/***************************************************************************************************
+	container
+***************************************************************************************************/
+
+.container {
+	width: 960px;
+	margin: auto;
+	position: relative;
+}
+
+/***************************************************************************************************
+	classes
+***************************************************************************************************/
+
+.invisible {
+	display: none;
+}
+
+.alignleft {
+	float: left;
+	padding-right: 10px;
+}
+
+.alignright {
+	float: right;
+	padding-left: 10px;
+}
+
+.clear {
+	clear: both;
+	display: block;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.dark {
+	padding: 10px;
+	background: #DEDEDE;
+}
+
+.error {
+	padding: 10px;
+	color: #FFFFFF;
+	background: #990000;
+	border-radius: 5px;
+}
+
+.error p {
+	padding: 5px 0px;
+}
+
+.update {
+	padding: 10px;
+	color: #FFFFFF;
+	background: #009900;
+	border-radius: 5px;
+}
+
+.update p {
+	padding: 5px 0px;
+}
+
+/***************************************************************************************************
+	entry
+***************************************************************************************************/
+
+.entry h1, .entry h2, .entry h3, .entry h4, .entry h5 {
+	color: #9D800C;
+	font-weight: normal;
+	font-family: "Economica", "Arial Narrow";
+	padding: 5px 0px 10px 0px;
+}
+
+.entry h1 {
+	font-size: 24px;
+}
+
+.entry h2 {
+	font-size: 20px;
+}
+
+.entry h3 {
+	font-size: 16px;
+}
+
+.entry h4 {
+	font-size: 14px;
+}
+
+.entry h5 {
+	font-size: 12px;
+}
+
+.entry p {
+	padding: 5px 0px;
+}
+
+.entry ul,
+.entry ol {
+	padding-left: 45px;
+	padding-bottom: 15px;
+}
+
+.entry blockquote {
+	font-style: italic;
+	padding-left: 45px;
+	background: url( ../img/icon/blockquote.png ) no-repeat top left;
+}
+
+.entry a {
+}
+
+.entry a:focus,
+.entry a:hover,
+.entry a:active {
+	text-decoration: underline;
+}
+
+.entry h1, .entry h2, .entry h3, .entry h4, .entry h5 {
+	color: #9D800C;
+	font-weight: normal;
+	font-family: "Economica", "Arial Narrow";
+	padding: 5px 0px 10px 0px;
+}
+
+.entry table {
+}
+
+.entry tr {
+}
+
+.entry th {
+	color: #9D800C;
+	text-align: left;
+	font: normal 24px "Economica", "Arial Narrow";
+	padding: 15px 0px 5px 0px;
+}
+
+.entry td {
+}
+
+/***************************************************************************************************
+	govbar
+***************************************************************************************************/
+
+#govbar {
+	height: 28px;
+	background:#000000;
+}
+
+#govbar .overflow {
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	width: 50%;
+	height: 28px;
+	background: url( '../img/govbar/background.png' ) repeat-x bottom;
+}
+
+#govbar .container {
+	height: 28px;
+	background: url( '../img/govbar/background.png' ) repeat-x bottom;
+}
+
+#govbar a {
+	float: right;
+	width: 110px;
+	height: 28px;
+	display: block;
+	text-indent: -5000px;
+	background: url( '../img/govbar/brasil.png' ) no-repeat bottom right;
+}
+
+/***************************************************************************************************
+	header
+***************************************************************************************************/
+
+#header {
+	height: 160px;
+	margin-bottom: 15px;
+	position: relative;
+	border-bottom: 1px solid #DEDEDE;
+}
+
+#header h1 {
+	top: 40px;
+	left: 10px;
+	position: absolute;
+}
+
+#header h1 a {
+	width: 88px;
+	height: 88px;
+	display: block;
+	text-indent: -5000px;
+}
+
+#topo-setorial {
+	width: 960px;
+	height: 85px;
+	text-indent: -5000px;
+	background: url( ../img/logo/cnpc.png ) no-repeat top left;
+}
+
+#header h2 {
+	top: 40px;
+	left: 120px;
+	position: absolute;
+	width: 500px;
+	font: bold 40px "Economica", "Arial Narrow";
+	text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+#header h2 a {
+	color: #51660B;
+}
+
+/***************************************************************************************************
+	search
+***************************************************************************************************/
+
+#search {
+	top: 50px;
+	right: 10px;
+	position: absolute;
+	width: 300px;
+	height: 40px;
+	display: block;
+	background: #FFFFFF;
+	border: 1px solid #DEDEDE;
+	border-radius: 5px;
+}
+
+#search input {
+	width: 221px;
+	height: 30px;
+	line-height: 30px;
+	background: none;
+	border: none;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+    padding-left: 35px;
+    background: url('../img/icon/search.png') no-repeat 3% center;
+}
+
+#search button {
+	width: 37px;
+	height: 40px;
+	font: bold 18px "Economica", "Arial Narrow";
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background: url('../img/bg/bt_ir.png');
+    background-color: transparent;
+	border: none;
+	margin: 0px;
+	margin-left: -1px;
+	padding: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 5px;
+	text-shadow: 1px 1px 1px #9D800C;
+}
+
+#search button:hover,
+#search button:focus,
+#search button:active {
+	background: url('../img/bg/bt_ir_on.png');
+}
+
+/***************************************************************************************************
+	accessibility
+***************************************************************************************************/
+
+#accessibility {
+	top: 10px;
+	right: 10px;
+	position: absolute;
+	color: #9C9C9C;
+	font: normal 10px Arial;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+}
+
+#accessibility .decrease-font {
+	color: #9C9C9C;
+	font-size: 14px;
+	padding-left: 5px;
+}
+
+#accessibility .decrease-font:hover,
+#accessibility .decrease-font:focus,
+#accessibility .decrease-font:active {
+	color: #000000;
+}
+
+#accessibility .increase-font {
+	color: #9C9C9C;
+	font-size: 18px;
+	padding-left: 5px;
+}
+
+#accessibility .increase-font:hover,
+#accessibility .increase-font:focus,
+#accessibility .increase-font:active {
+	color: #000000;
+}
+
+/***************************************************************************************************
+	navigator
+***************************************************************************************************/
+
+#navigator {
+	right: 0px;
+	bottom: 16px;
+	position: absolute;
+	font: bold 18px "Economica", "Arial Narrow";
+}
+
+#navigator .menu {
+}
+
+#navigator .menu li {
+	display: inline;
+	padding-left: 10px;
+}
+
+#navigator .menu li a {
+	color: #51660B;
+	padding: 0px 10px 16px 10px;
+}
+
+#navigator .menu li a:hover,
+#navigator .menu li a:focus,
+#navigator .menu li a:active {
+	border-bottom: 3px solid #FEC917;
+}
+
+#navigator .sub-menu {
+	display: none;
+}
+
+/***************************************************************************************************
+	breadcrumb
+***************************************************************************************************/
+
+#breadcrumb {
+	color: #9C9C9C;
+	margin: 0px 10px 15px 10px;
+    overflow: auto;
+}
+
+#breadcrumb a {
+	color: #9C9C9C;
+}
+
+#breadcrumb a:hover,
+#breadcrumb a:focus,
+#breadcrumb a:active {
+	text-decoration: underline;
+}
+
+#breadcrumb ul {
+	list-style-type:none;
+ 	padding:0;
+	margin:0;
+}
+
+#breadcrumb li {
+	    list-style-type: none;
+        padding:0;
+        margin:0;
+        float:left;
+        padding-left:8px;
+}
+
+#breadcrumb li a { 
+        padding:0 12px 0 0; 
+        background:transparent url('../img/icon/seta-breadcrumb.png') no-repeat right 60%;
+}
+
+/***************************************************************************************************
+	body
+***************************************************************************************************/
+
+#body {
+	margin-bottom: 15px;
+}
+
+/***************************************************************************************************
+	content
+***************************************************************************************************/
+
+#content {
+	float: left;
+	width: 640px;
+}
+
+#content.aside {
+	float: left;
+	width: 960px;
+}
+
+/***************************************************************************************************
+	section
+***************************************************************************************************/
+
+#content .section {
+	margin: 0px 0px 15px 0px;
+}
+
+#content .section-title {
+	color: #51660B;
+	text-shadow: 1px 1px 1px #FFFFFF;
+	font: normal 32px "Economica", "Arial Narrow";
+	padding-bottom: 15px;
+}
+
+#content .section-title a {
+	color: #51660B;
+}
+
+#content .section-title a:hover,
+#content .section-title a:focus,
+#content .section-title a:active {
+	color: #719516;
+}
+
+#content .section-subtitle {
+	color: #9D800C;
+	text-shadow: 1px 1px 1px #FFFFFF;
+	font: normal 30px "Economica", "Arial Narrow";
+}
+
+#content .section-subtitle a {
+	color: #9D800C;
+}
+
+#content .section-subtitle a:hover,
+#content .section-subtitle a:focus,
+#content .section-subtitle a:active {
+	color: #FEC917;
+}
+
+/***************************************************************************************************
+	section-cycle
+***************************************************************************************************/
+
+#content .section-cycle {
+	color: #F4F4F4;
+	width: 620px;
+	height: 250px;
+	position: relative;
+	margin: 0px 10px 15px 10px;
+	background: url('../img/bg/bg_slide.jpg');
+	border-radius: 5px;
+}
+
+#content .section-cycle img {
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#content .section-cycle .post-head {
+	top: 0px;
+	left: 300px;
+	position: absolute;
+	width: 320px;
+}
+
+#content .section-cycle .post-head.odd {
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	width: 620px;
+}
+
+#content .section-cycle .post-title {
+	color: #FEC917;
+	font: bold 26px "Economica", "Arial Narrow";
+	margin: 0px 15px 15px 15px;
+	padding: 40px 0px 10px 0px;
+	border-bottom: 1px solid #596C18;
+}
+
+#content .section-cycle .post-title a {
+	color: #FEC917;
+}
+
+#content .section-cycle .post-entry {
+	padding: 0px 20px 15px 20px;
+}
+
+#content .section-cycle .more-link {
+	float: right;
+	display: block;
+	margin: 0px 20px 15px 20px;
+	padding: 5px 15px;
+	font: normal 18px "Economica", "Arial Narrow";
+	color: #51660B;
+	background: url('../img/bg/bt_leiamais2.png') no-repeat;
+	border-radius: 5px;
+}
+
+#content .section-cycle .more-link:hover {
+	background: url('../img/bg/bt_leiamais2_on.png') no-repeat;
+}
+
+
+/***************************************************************************************************
+	section-cycle: pagination
+***************************************************************************************************/
+
+#content .section-cycle .pagination {
+	top: 7px;
+	right: 7px;
+	position: absolute;
+	z-index: 10;
+}
+
+#content .section-cycle .pagination a {
+	width: 8px;
+	height: 8px;
+	display: block;
+	margin: 3px;
+	text-indent: -5000px;
+	background: #719516;
+	border-radius: 8px;
+}
+
+#content .section-cycle .pagination a.activeSlide {
+	background: #DEDEDE;
+}
+
+#content .section-cycle .pagination a:hover,
+#content .section-cycle .pagination a:focus,
+#content .section-cycle .pagination a:active {
+	background: #F4F4F4;
+}
+
+/***************************************************************************************************
+	section-index
+***************************************************************************************************/
+
+#content .section-index {
+}
+
+#content .section-index .post {
+	margin: 0px 10px 25px 10px;
+}
+
+#content .section-index .post-title {
+	color: #51660B;
+	font: bold 24px "Economica", "Arial Narrow";
+}
+
+#content .section-index .post-title a {
+	color: #51660B;
+}
+
+#content .section-index .post-title a:hover,
+#content .section-index .post-title a:focus,
+#content .section-index .post-title a:active {
+	color: #719516;
+}
+
+#content .section-index .post-date {
+	color: #9D800C;
+	font: normal 11px Arial;
+	padding-bottom: 15px;
+}
+
+#content .section-index .post-date a {
+	color: #9D800C;
+}
+
+#content .section-index .post-date a:hover,
+#content .section-index .post-date a:focus,
+#content .section-index .post-date a:active {
+}
+
+#content .section-index .post-entry {
+	padding: 13px 0px;
+	border-top: 1px solid #DEDEDE;
+}
+
+#content .section-index .more-link {
+	float: right;
+	font: normal 18px "Economica", "Arial Narrow";
+	color: #51660B;
+}
+
+#content .section-index .more-link:hover {
+	float: right;
+	font: normal 18px "Economica", "Arial Narrow";
+	color: #000000;
+}
+
+#content .section-index .post-tag {
+	color: #DEDEDE;
+	font: normal 10px Arial;
+	padding-left: 15px;
+	background: url( ../img/icon/tag.png ) no-repeat left center;
+}
+
+/***************************************************************************************************
+	section-index: pagination
+***************************************************************************************************/
+
+#content .section-index .pagination {
+	color: #9C9C9C;
+	padding: 15px 10px;
+	text-align: center;
+}
+
+#content .section-index .pagination a,
+#content .section-index .pagination span {
+}
+
+#content .section-index .pagination a:hover,
+#content .section-index .pagination a:focus,
+#content .section-index .pagination a:active {
+}
+
+#content .section-index .pagination span,
+#content .section-index .pagination .page {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	line-height: 20px;
+	margin: 0px 5px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+#content .section-index .pagination .page:hover,
+#content .section-index .pagination .page:focus,
+#content .section-index .pagination .page:active {
+}
+
+#content .section-index .pagination .first,
+#content .section-index .pagination .last {
+	margin: 0px 15px;
+}
+
+#content .section-index .pagination .current {
+	background: #FEC917;
+}
+
+/***************************************************************************************************
+	section-author
+***************************************************************************************************/
+
+#content .section-author .section-title {
+	float: left;
+	font: bold 30px "Economica", "Arial Narrow";
+	padding-bottom: 5px;
+}
+
+#content .section-author .section-subtitle {
+	font: normal 18px "Economica", "Arial Narrow";
+}
+
+#content .section-author .avatar {
+	float: left;
+	width: 60px;
+	height: 60px;
+	display: block;
+	padding: 5px;
+	margin: 0px 10px;
+	background: #EFEDE6;
+	border: 1px solid #DEDEDE;
+	border-radius: 5px;
+}
+
+#content .section-author .vote {
+	float: left;
+	display: block;
+	margin-left: 15px;
+	padding: 5px 15px;
+	font: normal 18px "Economica", "Arial Narrow";
+	color: #9D800C;
+    text-transform: uppercase;
+	background: url('../img/bg/bt_votar.png') no-repeat;
+	border-radius: 5px;
+}
+
+#content .section-author .vote:hover,
+#content .section-author .vote:focus,
+#content .section-author .vote:active {
+	background: url('../img/bg/bt_votar_on.png');
+}
+
+#content .section-author .voted {
+	float: left;
+	display: block;
+	margin-left: 15px;
+	padding: 5px 15px;
+	font: normal 18px "Economica", "Arial Narrow";
+	background: #DEDEDE;
+	border-radius: 5px;
+}
+
+/***************************************************************************************************
+	section-pile
+***************************************************************************************************/
+
+#content .section-pile .post {
+	float: left;
+	width: 300px;
+	height: 250px;
+	margin: 0px 10px 20px 10px;
+	background: #EFEDE6;
+	border-radius: 5px;
+}
+
+#content .section-pile .post.odd {
+	margin: 0px 0px 20px 0px;
+}
+
+#content .section-pile .post-title {
+	color: #9D800C;
+	font: bold 30px "Economica", "Arial Narrow";
+	margin: 0px 20px 15px 20px;
+	padding: 40px 0px 10px 0px;
+	border-bottom: 1px solid #e4e1d7;
+}
+
+#content .section-pile .post-title a {
+	color: #9D800C;
+}
+
+#content .section-pile .post-entry {
+	color: #9D800C;
+	padding: 0px 15px 10px 15px;
+}
+
+#content .section-pile .more-link {
+	float: right;
+	display: block;
+	margin: 0px 20px 15px 20px;
+	padding: 5px 15px;
+	font: normal 18px "Economica", "Arial Narrow";
+	color: #9D800C;
+	background:  url(../img/bg/bt_leiamais2.png) no-repeat;
+	border-radius: 5px;
+}
+
+#content .section-pile .more-link:hover {
+	background:  url(../img/bg/bt_leiamais2_on.png) no-repeat;
+}
+
+/***************************************************************************************************
+	section-post
+***************************************************************************************************/
+
+#content .section-post .post {
+	margin: 0px 10px 5px 10px;
+}
+
+#content .section-post .post-title {
+	color: #51660B;
+	text-shadow: 1px 1px 1px #FFFFFF;
+	font: normal 32px "Economica", "Arial Narrow";
+	padding-bottom: 10px;
+}
+
+#content .section-post .post-entry {
+	padding-top: 15px;
+}
+
+#content .section-post .post-meta {
+	color: #9C9C9C;
+	font-size: 11px;
+	text-align: right;
+	padding-top: 3px;
+}
+
+#content .section-post .post-meta a {
+	color: #719516;
+}
+
+#content .section-post .post-meta a:hover,
+#content .section-post .post-meta a:focus,
+#content .section-post .post-meta a:active {
+	color: #51660B;
+}
+
+/***************************************************************************************************
+	section-comment
+***************************************************************************************************/
+
+#content .section-comment .comment {
+	padding-top: 15px;
+	list-style: none;
+}
+
+#content .section-comment .avatar {
+	float: left;
+	width: 60px;
+	height: 60px;
+	display: block;
+	padding: 3px;
+	border: 1px solid #DEDEDE;
+	border-radius: 5px;
+}
+
+#content .section-comment .balloon {
+	float: right;
+	width: 525px;
+	display: block;
+	position: relative;
+	padding: 10px;
+	border: 1px solid #DEDEDE;
+	border-radius: 5px;
+}
+
+#content .section-comment .balloon .balloon-tip {
+	top: 25px;
+	left: -10px;
+	position: absolute;
+	width: 10px;
+	height: 15px;
+	display: block;
+	background: url( ../img/bg/left-tip.png ) no-repeat center;
+}
+
+#content .section-comment .comment-author {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#content .section-comment .comment-author a {
+	color: #51660B;
+}
+
+#content .section-comment .comment-author a:hover,
+#content .section-comment .comment-author a:focus,
+#content .section-comment .comment-author a:active {
+	color: #719516;
+}
+
+#content .section-comment .comment-meta {
+	color: #9C9C9C;
+	font-size: 10px;
+}
+
+#content .section-comment .comment-meta a {
+	color: #719516;
+}
+
+#content .section-comment .comment-meta a:hover,
+#content .section-comment .comment-meta a:focus,
+#content .section-comment .comment-meta a:active {
+	color: #51660B;
+}
+
+#content .section-comment .comment-entry {
+	font-size: 11px;
+	padding-top: 10px;
+}
+
+#content .section-comment .comment-reply-link {
+	float: right;
+	color: #B8A456;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: lowercase;
+	padding: 3px 5px;
+	background: #EFEDE6;
+	border-radius: 5px;
+}
+
+#content .section-comment .children {
+	margin-left: 60px;
+	padding: 0px 0px 10px 10px;
+	position: relative;
+}
+
+#content .section-comment .children .balloon .balloon-tip {
+	top: -10px;
+	left: 15px;
+	position: absolute;
+	width: 15px;
+	height: 10px;
+	display: block;
+	background: url( ../img/bg/top-tip.png ) no-repeat center;
+}
+
+#content .section-comment .children .balloon {
+	width: 455px;
+}
+
+#content .section-comment textarea {
+	width: 520px;
+	height: 44px;
+}
+
+#content .section-comment .children textarea {
+	width: 440px;
+	border: none;
+	background: none;
+}
+
+#content .section-comment #respond .balloon {
+	background: #FFFFFF;
+}
+
+#content .section-comment #respond .balloon-tip {
+	background: none;
+}
+
+#content .section-comment #respond textarea {
+	padding: 0px;
+	background: none;
+	border: none;
+}
+
+#content .section-comment button {
+	float: right;
+	display: block;
+	margin: 15px 0px 15px 20px;
+	padding: 5px 15px;
+	font: normal 18px "Economica", "Arial Narrow";
+	color: #fff;
+	background: url('../img/bg/bt_enviar.png') no-repeat;
+	border-radius: 5px;
+}
+
+#content .section-comment button:hover,
+#content .section-comment button:focus,
+#content .section-comment button:active {
+	background: url('../img/bg/bt_enviar_on.png');
+}
+
+#content .section-comment #cancel-comment-reply-link {
+	float: right;
+	color: #9C9C9C;
+	padding: 25px 0px 0px 0px;
+	font-size: 10px;
+	text-transform: lowercase;
+}
+
+/***************************************************************************************************
+	sidebar
+***************************************************************************************************/
+
+#sidebar {
+	float: right;
+	width: 320px;
+}
+
+#sidebar .widget {
+	margin: 0px 10px 25px 10px;
+	border-radius: 5px;
+	background: #EFEDE6;
+}
+
+#sidebar .widget-title {
+	font: normal 24px "Economica", "Arial Narrow";
+	padding: 10px 15px;
+}
+
+/***************************************************************************************************
+	widget: custom loop
+***************************************************************************************************/
+
+#sidebar .widget_custom_loop {
+	color: #F4F4F4;
+	background: url('../img/bg/bg_destaque.jpg') repeat-x;
+}
+
+#sidebar .widget_custom_loop .post-title{
+	color: #F4F4F4;
+	font: bold 30px "Economica", "Arial Narrow";
+	margin: 0px 20px 15px 20px;
+	padding: 40px 0px 10px 0px;
+	border-bottom: 1px solid #719416;
+}
+
+#sidebar .widget_custom_loop .post-title a {
+	color: #F4F4F4;
+}
+
+#sidebar .widget_custom_loop .post-title a:hover,
+#sidebar .widget_custom_loop .post-title a:focus,
+#sidebar .widget_custom_loop .post-title a:active {
+	color: #FFFFFF;
+}
+
+#sidebar .widget_custom_loop .post-entry {
+	padding: 0px 20px 15px 20px;
+}
+
+#sidebar .widget_custom_loop .more-link {
+	float: right;
+	display: block;
+	margin: 0px 20px 15px 20px;
+	padding: 5px 15px;
+	font: normal 18px "Economica", "Arial Narrow";
+	color: #51660B;
+	background: url('../img/bg/bt_leiamais.png') no-repeat;
+	border-radius: 5px;
+}
+
+#sidebar .widget_custom_loop .more-link:hover,
+#sidebar .widget_custom_loop .more-link:focus,
+#sidebar .widget_custom_loop .more-link:active {
+	background: url('../img/bg/bt_leiamais_on.png') no-repeat;
+}
+
+/***************************************************************************************************
+	widget: participe
+***************************************************************************************************/
+
+#sidebar .widget_participe {
+	margin-left: 10px;
+	margin-bottom: 20px;
+	width: 300px;
+	height: 62px;
+	background: url('../img/temp/participe.png');
+
+}
+
+#sidebar .widget_participe:hover {
+	background: url('../img/temp/participe_on.png');
+}
+
+
+/***************************************************************************************************
+	widget: contador
+***************************************************************************************************/
+
+#sidebar .widget_contador {
+	color: #F4F4F4;
+	background: url('../img/bg/bg_destaque.jpg');
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+}
+
+#sidebar .widget_contador h1{
+	color: #F4F4F4;
+	font: bold 30px "Economica", "Arial Narrow";
+	/*margin: 0px 20px 15px 20px;
+	padding: 40px 0px 10px 0px;*/
+}
+
+#sidebar .widget_contador h2{
+	color: #FECA15;
+	font: bold 25px "Economica", "Arial Narrow";
+}
+
+/***************************************************************************************************
+	widget: custom menu
+***************************************************************************************************/
+
+#sidebar .widget_custom_menu {
+	background: #EFEDE6;
+}
+
+#sidebar .widget_custom_menu .widget-title {
+	color: #9D800C;
+	background: url(../img/bg/bg_title_sidebar.jpg) repeat-x;
+	border-radius: 5px;
+}
+
+#sidebar .widget_custom_menu .widget-body {
+	padding: 0px 15px 5px 15px;
+}
+
+#sidebar .widget_custom_menu .widget-body ul {
+}
+
+#sidebar .widget_custom_menu .widget-body li {
+	list-style: none;
+}
+
+#sidebar .widget_custom_menu .widget-body a {
+	color: #9D800C;
+	display: block;
+	padding: 10px 5px 10px 15px;
+	background: url( ../img/bg/bullet.png ) no-repeat left center;
+}
+
+#sidebar .widget_custom_menu .widget-body a:hover,
+#sidebar .widget_custom_menu .widget-body a:focus,
+#sidebar .widget_custom_menu .widget-body a:active {
+	text-decoration: underline;
+}
+
+/***************************************************************************************************
+	widget: candidatos
+***************************************************************************************************/
+
+#sidebar .widget_candidatos {
+}
+
+#sidebar .widget_candidatos .widget-title {
+	color: #9D800C;
+	background: url(../img/bg/bg_title_sidebar.jpg) repeat-x;
+	border-radius: 5px;
+}
+
+#sidebar .widget_candidatos .widget-body {
+}
+
+#sidebar .widget_candidatos .user {
+	width: 270px;
+	height: 70px;
+	margin-left: 15px;
+	padding: 10px 0px 5px 0px;
+}
+
+#sidebar .widget_candidatos .avatar {
+	float: left;
+	width: 60px;
+	height: 60px;
+	display: block;
+	padding: 3px;
+	margin-right: 10px;
+	border: 1px solid #DEDEDE;
+	border-radius: 5px;
+}
+
+#sidebar .widget_candidatos .user-name {
+	font: normal 18px "Economica", "Arial Narrow";
+	color: #51660B;
+}
+
+#sidebar .widget_candidatos .user-name a {
+	color: #51660B;
+}
+
+#sidebar .widget_candidatos .user-name a:hover {
+	color: #000;
+}
+
+#sidebar .widget_candidatos .user-meta {
+	font-size: 11px;
+}
+
+#sidebar .widget_candidatos .more-link {
+	float: right;
+	font: normal 14px "Economica", "Arial Narrow";
+	color: #9D800C;
+}
+
+#sidebar .widget_candidatos .more-link:hover {
+	float: right;
+	font: normal 14px "Economica", "Arial Narrow";
+	color: #000;
+}
+
+/***************************************************************************************************
+	widget: login
+***************************************************************************************************/
+
+#sidebar .widget_login {
+}
+
+#sidebar .widget_login .widget-title {
+	color: #51660B;
+}
+
+#sidebar .widget_login .greetings {
+	padding: 10px 15px;
+}
+
+#sidebar .widget_login .login {
+	float: left;
+	width: 180px;
+	display: block;
+	padding: 10px 15px;
+	margin-bottom: 15px;
+	border-right: 1px solid #DEDEDE;
+}
+
+#sidebar .widget_login .login button {
+	width: 25px;
+	height: 25px;
+	font: bold 14px "Economica", "Arial Narrow";
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background: url('../img/bg/bt_ir2.png');
+	border: none;
+	margin: 0px;
+	margin-left: -1px;
+	padding: 0px;
+}
+
+#sidebar .widget_login .login button:hover,
+#sidebar .widget_login .login button:focus,
+#sidebar .widget_login .login button:active {
+	background: url('../img/bg/bt_ir2_on.png');
+}
+
+#sidebar .widget_login .login input {
+	width: 178px;
+	margin-bottom: 5px;
+}
+
+#sidebar .widget_login .forget {
+	color: #51660B;
+	font: normal 14px "Economica", "Arial Narrow";
+	float: right;
+	padding-top: 10px;
+}
+
+#sidebar .widget_login .register {
+	float: left;
+	width: 50px;
+	display: block;
+	padding: 10px 15px;
+	font: normal 20px "Economica", "Arial Narrow";
+	letter-spacing: -1px;
+	line-height: 0.9;
+}
+
+#sidebar .widget_login .register span {
+	font-size: 26px;
+}
+
+#sidebar .widget_login .register a {
+	color: #9D800C;
+}
+
+#sidebar .widget_login .register a:hover {
+	color: #5f740f;
+}
+
+/***************************************************************************************************
+	footer
+***************************************************************************************************/
+
+#footer {
+	height: 90px;
+	position: relative;
+	border-top: 1px solid #DEDEDE;
+	color: #9C9C9C;
+	font: normal 11px Arial;
+}
+
+/***************************************************************************************************
+	copyright
+***************************************************************************************************/
+
+#copyright {
+	top: 30px;
+	left: 10px;
+	position: absolute;
+}
+
+/***************************************************************************************************
+	address
+***************************************************************************************************/
+
+#address {
+	left: 10px;
+	bottom: 30px;
+	position: absolute;
+}
+
+/***************************************************************************************************
+	government
+***************************************************************************************************/
+
+#government {
+	top: 20px;
+	right: 10px;
+	position: absolute;
+}
+
+#government a {
+	float: left;
+	display: block;
+	padding-left: 15px;
+}
+
+#government .minc {
+	width: 60px;
+	height: 50px;
+	text-indent: -5000px;
+	background: url( ../img/logo/ministerio-da-cultura.png ) no-repeat right;
+}
+
+#government .brasil {
+	width: 160px;
+	height: 50px;
+	text-indent: -5000px;
+	background: url( ../img/logo/brasil.png ) no-repeat right;
+}

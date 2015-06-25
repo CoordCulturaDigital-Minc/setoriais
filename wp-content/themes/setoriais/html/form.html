@@ -1,0 +1,434 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="pt-BR">
+	<head>
+		<!-- Meta -->
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="description" content="Forum Nacional " />
+		<meta name="keywords" content="" />
+		<meta name="copyright" CONTENT="&copy; 2012 Ministério da Cultura do Brasil" />
+		<meta name="author" content="Jaqueline Teles, Marcelo Mesquita" />
+
+		<!-- Title -->
+		<title>Foruns Setoriais</title>
+
+		<!-- Icon -->
+		<link type="image/x-icon" href="../favicon.ico" rel="shortcut icon" />
+
+		<!-- Font -->
+		<link type='text/css' href='http://fonts.googleapis.com/css?family=Economica:400,700,400italic,700italic' media='screen' rel='stylesheet'>
+
+		<!-- CSS -->
+		<link type='text/css' href='../css/style.css' media='screen' rel='stylesheet' />
+
+		<!-- Javascript -->
+		<script type='text/javascript' src='../js/jquery-1.6.min.js'></script>
+		<script type='text/javascript' src='../js/jcycle-2.3.min.js'></script>
+		<script type='text/javascript' src='../js/jfontsize-1.0.min.js'></script>
+		<script type='text/javascript' src='../js/script.js'></script>
+	</head>
+
+	<body>
+		<div id="govbar">
+			<div class="overflow"></div>
+			<div class="container">
+				<a href="http://www.brasil.gov.br/" class="brasil" target="_blank">Brasil</a>
+			</div>
+		</div>
+
+		<div class="container">
+			<div id="header">
+				<h1><a href="#">CNPC</a></h1>
+				<h2><a href="#">Fóruns Nacionais<br> Setoriais</a></h2>
+
+				<div id="accessibility">
+					<span>Tamanho da Fonte</span>
+					<a href="#" class="decrease-font" title="Diminuir Fonte">A-</a>
+					<a href="#" class="increase-font" title="Aumentar Fonte">A+</a>
+				</div>
+
+				<div id="search">
+					<form action="" method="get">
+						<label for="s" class="invisible">procurar</label>
+						<input type="text" name="s" value="Digite aqui o que procura..." class="memory" />
+						<button type="submit">IR</button>
+					</form>
+				</div>
+
+				<div id="navigator">
+					<ul class="menu">
+						<li><a href="#">Como Participar?</a></li>
+                        <li><a href="#">Legislação</a></li>
+						<li><a href="#">Inscreva-se!</a></li>
+						<li><a href="#">Contato</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="breadcrumb" class="container"><p><strong>Você está aqui:</strong> Notícias</p></div>
+
+			<div id="body">
+				<div id="content">
+					<div class="section section-post">
+						<div class="section-body">
+							<div class="post">
+
+								<div class='error'>
+									<p><strong>Atenção!</strong></p>
+									<ol>
+										<li>Você deve informar um cpf válido!</li>
+									</ol>
+								</div>
+
+								<div class="post-entry entry">
+									<div id="cnpc" class="formulario_pessoa_fisica">
+
+										<form class='cadastro' action='http://localhost/wp/setoriais/cadastro/' method='post' enctype='multipart/form-data'>
+											<input type='hidden' name='action' value='cnpc_cadastro_pessoa_fisica' />
+											<input type='hidden' name='nonce' value='8657b3c230' />
+											<input type='hidden' name='redirect' value='http://localhost/wp/setoriais/cadastro/' />
+
+											<h1 class="post-title">Cadastro de Eleitor</h1>
+
+											<table>
+												<tr>
+													<th colspan='2'>Dados Pessoais</th>
+												</tr>
+
+												<tr>
+													<td colspan='2'>
+														<label for='nome'>Nome Completo: *</label><br>
+														<input type='text' id='nome' name='nome' value='' size='70' maxlength='100'  />
+													</td>
+												</tr>
+
+												<tr>
+													<td colspan='2'>
+														<label for='apelido'>Nome Artístico / Apelido:</label><br>
+														<input type='text' id='apelido' name='apelido' value='' size='70' maxlength='100'  />
+													</td>
+												</tr>
+
+												<tr>
+													<td>
+														<label for='cpf'>CPF: *</label><br>
+														<input type='text' id='cpf' name='cpf' value='' size='15' maxlength='11'  />
+													</td>
+													<td>
+														<label for='rg'>RG: *</label><br>
+														<input type='text' id='rg' name='rg' value='' size='15' maxlength='15'  />
+													</td>
+												</tr>
+
+												<tr>
+													<td>
+														<label for='nascimento'>Nascimento: *</label><br>
+														<input type='text' id='nascimento' name='nascimento' value='01/01/1970' size='10' maxlength='10'  />
+													</td>
+													<td>
+														<label for='naturalidade'>Naturalidade: *</label><br>
+														<select id='naturalidade' name='naturalidade' ><option value='AC' >Acre</option><option value='AL' >Alagoas</option><option value='AM' >Amazonas</option><option value='AP' >Amapá</option><option value='BA' >Bahia</option><option value='CE' >Ceará</option><option value='DF' >Distrito Federal</option><option value='ES' >Espírito Santo</option><option value='GO' >Goiás</option><option value='MA' >Maranhão</option><option value='MG' >Minas Gerais</option><option value='MS' >Mato Grosso do Sul</option><option value='MT' >Mato Grosso</option><option value='PA' >Pará</option><option value='PB' >Paraíba</option><option value='PE' >Pernambuco</option><option value='PI' >Piauí</option><option value='PR' >Paraná</option><option value='RJ' >Rio de Janeiro</option><option value='RN' >Rio Grande do Norte</option><option value='RO' >Rondônia</option><option value='RR' >Roraima</option><option value='RS' >Rio Grande do Sul</option><option value='SC' >Santa Catarina</option><option value='SE' >Sergipe</option><option value='SP' >São Paulo</option><option value='TO' >Tocantins</option></select>
+													</td>
+												</tr>
+
+												<tr>
+													<td colspan='2'>
+														<label for='email'>E-mail: *</label><br>
+														<input type='text' id='email' name='email' value='' size='70' maxlength='100'  />
+													</td>
+												</tr>
+
+												<tr>
+													<th colspan='2'>Segurança</th>
+												</tr>
+
+												<tr>
+													<td colspan='2'>
+														<label for='senha'>Escolha sua senha: *</label><br>
+														<input type='password' id='senha' name='senha' maxlength='100' />
+													</td>
+												</tr>
+
+												<tr>
+													<th colspan='2'>Localização</th>
+												</tr>
+
+												<tr>
+													<td colspan='2'>
+														<label for='endereco'>Endereço: *</label><br>
+														<input type='text' id='endereco' name='endereco' value='' size='70' maxlength='100'  />
+													</td>
+												</tr>
+
+												<tr>
+													<td colspan='2'>
+														<label for='complemento'>Complemento:</label><br>
+														<input type='text' id='complemento' name='complemento' value='' size='70' maxlength='100'  />
+													</td>
+												</tr>
+
+												<tr>
+													<td>
+														<label for='bairro'>Bairro: *</label><br>
+														<input type='text' id='bairro' name='bairro' value='' size='30' maxlength='100'  />
+													</td>
+													<td>
+														<label for='cep'>CEP: *</label><br>
+														<input type='text' id='cep' name='cep' value='' size='10' maxlength='8'  />
+													</td>
+												</tr>
+
+												<tr>
+													<td>
+														<label for='cidade'>Cidade: *</label><br>
+														<input type='text' id='cidade' name='cidade' value='' size='30' maxlength='100'  />
+													</td>
+													<td>
+														<label for='estado'>UF: *</label><br>
+														<select id='estado' name='estado' ><option value='AC' >Acre</option><option value='AL' >Alagoas</option><option value='AM' >Amazonas</option><option value='AP' >Amapá</option><option value='BA' >Bahia</option><option value='CE' >Ceará</option><option value='DF' >Distrito Federal</option><option value='ES' >Espírito Santo</option><option value='GO' >Goiás</option><option value='MA' >Maranhão</option><option value='MG' >Minas Gerais</option><option value='MS' >Mato Grosso do Sul</option><option value='MT' >Mato Grosso</option><option value='PA' >Pará</option><option value='PB' >Paraíba</option><option value='PE' >Pernambuco</option><option value='PI' >Piauí</option><option value='PR' >Paraná</option><option value='RJ' >Rio de Janeiro</option><option value='RN' >Rio Grande do Norte</option><option value='RO' >Rondônia</option><option value='RR' >Roraima</option><option value='RS' >Rio Grande do Sul</option><option value='SC' >Santa Catarina</option><option value='SE' >Sergipe</option><option value='SP' >São Paulo</option><option value='TO' >Tocantins</option></select>
+													</td>
+												</tr>
+
+												<tr>
+													<th colspan='2'>Dados Profissionais</th>
+												</tr>
+
+												<tr>
+													<td>
+														<label for='formacao'>Formação: *</label><br>
+														<input type='text' id='formacao' name='formacao' value='' size='30' maxlength='100'  />
+													</td>
+													<td>
+														<label for='atuacao'>Atuação: *</label><br>
+														<input type='text' id='atuacao' name='atuacao' value='' size='30' maxlength='100'  />
+													</td>
+												</tr>
+
+												<tr>
+													<td colspan='2'>
+														<label for='biografia'>Apresentação:</label><br>
+														<textarea id='biografia' name='biografia' cols='100' rows='10' maxlength='3000' class='limit-chars' ></textarea>
+													</td>
+												</tr>
+
+												<tr>
+													<th colspan='2'>Anexos</th>
+												</tr>
+
+												<tr>
+													<td colspan='2'>
+														<label for='comprovante'>Comprovação de Três Anos de Atuação no Setor: *</label><br>
+														<input type='file' id='comprovante' name='comprovante'  /><br>
+														<small>Curriculo ou Diploma Profissional ou Registro Profissional no Ministério do Trabalho (DRT) ou Participação em Entidade/Comunidade representativa da área ou segmento.</small>
+													</td>
+												</tr>
+
+												<tr>
+													<td colspan='2'>
+														<label for='identidade'>Identidade: *</label><br>
+														<input type='file' id='identidade' name='identidade' /><br>
+													</td>
+												</tr>
+
+												<tr>
+													<td colspan='2'>
+														<label for='cpf'>CPF: *</label><br>
+														<input type='file' id='cpf' name='cpf' /><br>
+													</td>
+												</tr>
+
+												<tr>
+													<td colspan='2'>
+														<label for='comprovante-residencia'>Comprovante de Residencia: *</label><br>
+														<input type='file' id='comprovante-residencia' name='comprovante-residencia' /><br>
+													</td>
+												</tr>
+
+												<tr>
+													<td colspan='2'>
+														<label for='comprovante-comissionado'>Comprovante de Vínculo Comissionado:</label><br>
+														<input type='file' id='comprovante-comissionado' name='comprovante-comissionado' /><br>
+														<small>Na hipótese de eleitor que seja representante da sociedade civil e ocupante de cargo em comissão, a declaração de que trata o inciso VII será substituída por informação que individualize o cargo comissionado que ocupa, acompanhada de comprovação da função que exerce na entidade civil que representa.</small>
+													</td>
+												</tr>
+
+												<tr>
+													<th colspan='2'>Declaração</th>
+												</tr>
+
+												<tr>
+													<td colspan='2'>
+														<strong>Declaro para os devidos fins que:</strong><br>
+														<label><input type='checkbox' name='declaracao-veracidade' value='1'> Os dados informados em meu cadastro estão de acordo com os <a href="#" title="Termos de Veracidade das Informações" target="_blank">Termos de Veracidade das Informações</a>; *</label>
+														<label><input type='checkbox' name='declaracao-pnc' value='1'> Tenho conhecimento do <a href="#" title="Plano Nacional de Cultura" target="_blank">Plano Nacional de Cultura</a>; *</label>
+														<label><input type='checkbox' name='declaracao-das' value='1'> Não sou detentor de cargo comissionado na administração pública federal, estadual, distrital ou municipal.</label>
+													</td>
+												</tr>
+
+												<tr>
+													<td colspan='2'>
+														<button type='submit' onclick='return confirm( "Confira atentamente seus dados e arquivos anexados!" );'>Cadastrar</button>
+													</td>
+												</tr>
+
+												<tr>
+													<th colspan='2' class='post-title'>Cadastro de Candidato</th>
+												</tr>
+
+												<tr>
+													<td colspan='2'>
+														<label><input type='checkbox' name='candidatura' value='candidatura' class='show-hide' Array> Desejo me candidatar a essa setorial</label><br>
+														<small>Para inscrever sua candidatura é necessário preencher o cadastro de Eleitor.</small>
+													</td>
+												</tr>
+
+												<tr>
+													<td colspan='2'>
+														<table id='candidatura' class='dark'>
+															<tr>
+																<th colspan='2'>Dados do Candidato</th>
+															</tr>
+
+															<tr>
+																<td colspan='2'>
+																	<label for='propostas'>Defesa da Candidatura: *</label><br>
+																	<textarea id='propostas' name='propostas' cols='100' rows='10' maxlength='3000' class='limit-chars'></textarea>
+																</td>
+															</tr>
+
+															<tr>
+																<th colspan='2'>Anexos</th>
+															</tr>
+
+															<tr>
+																<td colspan='2'>
+																	<label for='curriculo'>Comprovação de Atuação Cultural: *</label><br>
+
+																	<input type='file' id='curriculo' name='curriculo' /><br>
+																	<small>Curriculo detalhado com comprovada atuação nos últimos cinco anos no formato .pdf com no máximo 1MB.</small>
+																</td>
+															</tr>
+
+															<tr>
+																<td colspan='2'>
+																	<label for='portfolio'>Porfólio:</label><br>
+
+																	<input type='file' id='portfolio' name='portfolio' /><br>
+																	<small>Apenas arquivos no formato .pdf com no máximo 1MB</small>
+																</td>
+															</tr>
+
+															<tr>
+																<td colspan='2'>
+																	<label for='apoio'>Carta de Apoio: *</label><br>
+
+																	<input type='file' id='apoio' name='apoio' /><br>
+																	<small>Carta de apoio subscrita por entidade com atuação na área em que concorre ou pelo menos dez eleitores da mesma área, cujo cadastro eleitoral venha a ser devidamente validado no formato .pdf com no máximo 1MB.</small>
+																</td>
+															</tr>
+
+															<tr>
+																<th colspan='2'>Declaração</th>
+															</tr>
+
+															<tr>
+																<td colspan='2'>
+																	<strong>Declaro para os devidos fins que:</strong><br>
+																	<label><input type='checkbox' name='declaracao-candidato-veracidade' value='declaracao-veracidade' > Os dados informados em meu cadastro estão de acordo com os <a href='#' title='Termos de Veracidade das Informações' target='_blank'>Termos de Veracidade das Informações</a>; *</label>
+																	<label><input type='checkbox' name='declaracao-candidato-pnc' value='declaracao-pnc' > Tenho conhecimento do <a href='#' title='Plano Nacional de Cultura' target='_blank'>Plano Nacional de Cultura</a>; *</label>
+																	<label><input type='checkbox' name='declaracao-candidato-das' value='declaracao-das' > Não sou detentor de cargo comissionado na administração pública federal, estadual, distrital ou municipal.</label>
+																</td>
+															</tr>
+
+															<tr>
+																<td colspan='2'>
+																	<button type='submit' onclick='return confirm( 'Confira atentamente seus dados e arquivos anexados!' );'>Candidatar</button>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+										</form>
+									</div>
+								</div>
+								<div class="post-meta">Publicado em: <a href="#">12 de agosto de 2011</a></div>
+								<div class="post-meta">Autor: <a href="#">Marcelo Mesquita</a></div>
+								<div class="post-meta">Tags: <a href="#">lorem</a>, <a href="#">ipsum</a></div>
+								<div class="post-meta">Categoria: <a href="#">Notícias</a></div>
+								<div class="post-meta">Comentários: <a href="#">33</a></div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div id="sidebar">
+					<div class="widget widget_custom_loop">
+						<div class="widget-body">
+							<div class="post">
+								<h1 class="post-title"><a href="#" title="O que é?">O que é?</a></h1>
+								<div class="post-entry"><p>Phasellus ullamcorper felis nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p></div>
+								<a href="#" title="" class="more-link">Leia Mais &rsaquo;</a>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="widget widget_custom_menu">
+						<div class="widget-head">
+							<h2 class="widget-title">Área Restrita</h2>
+						</div>
+						<div class="widget-body">
+							<div>
+								<ul class="menu">
+									<li class="menu-item">
+										<a href="#">Meu Perfil</a>
+										<ul class="sub-menu">
+											<li class="menu-item"><a href="#">Alterar Senha</a></li>
+										</ul>
+									</li>
+									<li class="menu-item"><a href="#">Logout</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+                    
+                    <div class="widget widget_text">
+						<div class="widget-body">
+							<a href="#" title=""><img src="../img/temp/botao-snc-positivo.png" alt="" /></a>
+						</div>
+					</div>
+
+					<div class="widget widget_text">
+						<div class="widget-body">
+							<a href="#" title=""><img src="../img/temp/cnpc.png" alt="" /></a>
+						</div>
+					</div>
+
+					<div class="widget widget_text">
+						<div class="widget-body">
+							<a href="#" title=""><img src="../img/temp/pnc.png" alt="" /></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="clear"></div>
+			</div>
+
+			<div id="footer">
+				<div id="copyright">
+					<p>2012 © Fóruns Nacionais Setoriais. Todos os direitos reservados.</p>
+				</div>
+
+				<div id="address">
+					<p><strong>Endereço:</strong> Esplanada dos Ministérios Bloco B 3º andar CEP 70068-900, Brasília - Distrito Federal <strong>Telefone:</strong> (61) 2024-2361 / 2302</p>
+				</div>
+
+				<div id="government">
+					<a href="http://www.cultura.gov.br/" title="Ministério da Cultura" class="minc">Ministério da Cultura</a>
+					<a href="http://www.brasil.gov.br/" title="Brasil - país rico é país sem pobreza" class="brasil">Brasil</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
